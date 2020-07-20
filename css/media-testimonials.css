@@ -1,0 +1,50 @@
+@media (min-width: 1200px) {
+
+	
+}	
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+ #name{
+ 	font-size: 20px;
+ }
+}
+
+@media (max-width: 767px){
+	.img-style{
+		width: 50%;
+	}
+	.text-right>i{
+		bottom: 50px;
+		right: 20px;
+	}
+	#qualaity-support{
+		display: block;
+	}
+	.qualaity-support>span{
+		padding: 5px 0px;
+	}
+	.fa-star{
+		float: none;
+	}
+
+}
+
+@media (max-width: 480px){
+
+}
+@media (max-width: 382px){
+	#name{
+		font-size: 25px;
+	}
+	.section-5 .header i{
+		margin-top: 42px;
+	}
+	.section-5 .header hr{
+		width: 120px;
+	}
+
+}

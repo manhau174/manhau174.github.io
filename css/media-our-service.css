@@ -1,0 +1,48 @@
+@media (min-width: 1200px) {
+	.container{
+		width: 1170px;
+	}
+	
+}	
+
+@media (min-width: 992px) and (max-width: 1199px){
+	.container{
+		width: 970px;
+	}
+	.header>i{
+		top: 51px;
+	}
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+	.container{
+		width: 750px;
+	}
+	
+}
+
+@media (max-width: 767px){
+	.section-4 hr{
+		width: 39%;
+	}
+}
+@media (min-width: 481px) and (max-width: 482px) {
+	.section-4 .header>i{
+		top: 92px;
+	}
+}
+@media (max-width: 480px){
+	.section-4 .header>i{
+		top: 92px;
+	}
+	.section-4 hr{
+		width: 200px;
+		margin-left: 2%;
+	}
+}
+@media (max-width: 400px){
+	.section-4 hr{
+		width: 150px;
+		margin-left: 0%;
+	}
+}

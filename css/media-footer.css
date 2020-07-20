@@ -1,0 +1,41 @@
+@media (min-width: 1200px) {
+	.container{
+		width: 1170px;
+	}
+	
+}	
+
+@media (min-width: 992px) and (max-width: 1199px){
+	.container{
+		width: 970px;
+	}	
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+	.container{
+		width: 750px;
+	}	
+}
+
+@media (max-width: 767px){
+	footer{
+		height: 100px;
+	}
+	footer>p{
+		padding-top: 0;
+	}
+	footer>div{
+		margin-top: 20px;
+		position: none;
+		width: 100%;
+	}
+}
+
+@media (max-width: 480px){
+
+}
+@media (max-width: 395px){
+	footer>div{
+		margin-top: 35px;
+	}
+}

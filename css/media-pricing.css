@@ -1,0 +1,45 @@
+@media (min-width: 1200px) {
+	
+}	
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+	.pricing_table>li{
+		width: 45%;
+	}
+
+}
+
+@media (max-width: 767px){
+	.pricing_table{
+		width: 60%;
+		margin: 0 auto;
+	}
+	.pricing_table>li{
+		width: 100%;
+		margin-top: 20px;
+	}
+	.pricing-midle{
+		margin: 0 0;
+	}
+
+}
+@media (max-width: 600px) {
+	.pricing_table{
+		width: 70%;
+		margin: 0 auto;
+	}
+}
+@media (max-width: 480px){
+	.pricing_table{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.section-8 hr{
+		width: 100px;
+	}
+}
