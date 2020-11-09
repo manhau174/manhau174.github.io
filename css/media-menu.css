@@ -1,0 +1,83 @@
+@media (min-width: 1200px) {
+	.container{
+		width: 1170px;
+	}
+	.zent-logo{
+	width: 15%;
+	cursor: pointer;
+}
+}	
+
+@media (min-width: 992px) and (max-width: 1199px){
+	.container{
+		width: 970px;
+	}
+	.carousel-caption h1{
+		display: none;
+	}
+	.zent-logo{
+		width: 150px;
+		margin-bottom: 25px;
+	}
+
+}
+@media(min-width: 768px) and (max-width: 991px){
+	.container{
+		width: 750px;
+	}
+	.carousel-caption h1{
+		display: none;
+	}
+	.zent-logo{
+		width: 150px;
+		margin-bottom: 20px;
+	}
+}
+@media (min-width: 831px) and (max-width: 910px){
+	.nav-color ul li{
+		font-size: 12px;
+	}
+}
+@media (min-width: 768px) and (max-width: 830px){
+	.nav-color ul li{
+		font-size: 10px ;
+	}
+	
+}
+@media(max-width: 910px) {
+	
+	.navbar-header>button{
+		background: #e76529;
+	}
+
+	.carousel-caption h1, .slogan{
+		display: none;
+	}
+	.carousel-caption img{
+		margin-bottom: 20px;
+	}
+}	
+@media (max-width: 767px){
+	.btn-lg{
+		/*padding:15px 30px;*/
+		margin-bottom: 5%;
+		}
+	.zent-logo{
+		width: 150px;
+	}
+}
+@media (max-width: 613px){
+	.item{
+		height: 300px;
+	}
+}
+
+
+@media (max-width: 480px){
+	.zent-logo{
+		display: none;
+	}
+	.item{
+		height: 200px;
+	}
+}
